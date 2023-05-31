@@ -49,7 +49,7 @@ Here's a quick screen recording of the expected result:
 
 **Acceptance Criteria:**
 
-- Create a new component.
+- Create a new component. (npm run new-component)
   - (Don't forget, you can use an NPM script to generate the scaffolding for you!)
 - This component should render a `<form>` tag, including a label and a text input.
 - The text input should be controlled by React state.
