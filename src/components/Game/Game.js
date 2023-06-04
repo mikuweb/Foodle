@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { sample } from "../../utils";
 import { WORDS } from "../../data";
 import Input from "../Input/Input";
@@ -19,7 +18,7 @@ function Game() {
 
   return (
     <>
-      <GuessedResult guesses={guesses} />
+      <GuessedResult guesses={guesses} answer={answer}/>
       <Input handleSubmitGuess={handleSubmitGuess} />
     </>
   );
